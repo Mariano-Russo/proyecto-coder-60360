@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+
+}
+
+h1 {
+    color: brown;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border: solid 0.5rem brown;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    header nav ul {
+        display: flex;
+        gap: 1rem;
+        font-size: 2rem;
+        font-style: italic;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-size: 1.5rem;
+}
+
+main section h2 {
+    color: rgb(165, 138, 50);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+p {
+    color: rgb(223, 149, 53);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+main section article h3 {
+    color: rgb(141, 175, 144);
+    font-size: 2.5rem;
+    padding: 1rem;
+
+}
+
+main section article p {
+    color: rgb(133, 49, 49);
+}
+
+
+.titulo-p {
+    color: blueviolet;
+    background-color: black;
+    font-size: 2.5rem;
+}
+
+
+img {
+    height: 500px;
+    width: 800px;
+    padding: 1rem;
+}
+
+
+form {
+
+    font-size: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+
+@media (min-width: 768px){
+    footer form, h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media (min-width: 1024px){
+
+    main section p {
+        text-align: center;
+    }
+
+    .img-1{
+        text-align: center;
+    }
+
+    .container-1{
+        text-align: center;
+    }
+}
